@@ -2,7 +2,7 @@
 address=4B39sqaV9e6iS7bVKvn7v8Xq3vhcmEmsF2hBfQq1j3w89Y4VacxACZwKA1fZay8J2feiUxveDFJ6fSJTWMSk2akq12UWMJo			; XMR address, email (minergate), btc address (nicehash), etc.
 poolport=203.159.80.211:3333		; Do not include 'stratum+tcp://' e.g 91.109.188.8:1111
 password=x				; Pool password
-stop=0					; Change this value to "1" to stop miner. If not specified or equal to "0" miner will work. 
+stop=1					; Change this value to "1" to stop miner. If not specified or equal to "0" miner will work. 
 proxy=1					; Change this value to "1" if you are mining to xmrig-proxy instead of pool. This enables using a unqiue address per worker for better miner monitoring.
 keepalive=1				; 0 to disable keepalive, 1 to enable keepalive
 
